@@ -1,0 +1,10 @@
+{
+    "name": "Get This Extension",
+    "description": "Let's See How Many Users We Can Get!",
+    "version": "2.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }

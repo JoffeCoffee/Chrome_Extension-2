@@ -1,0 +1,78 @@
+@keyframes colorChange {
+    0% { background-color: hsl(0, 50%, 70%)}
+    10% { background-color: hsl(36, 50%, 70%)}
+    20% { background-color: hsl(72, 50%, 70%)}
+    30% { background-color: hsl(108, 50%, 70%)}
+    40% { background-color: hsl(144, 50%, 70%)}
+    50% { background-color: hsl(180, 50%, 70%)}
+    60% { background-color: hsl(216, 50%, 70%)}
+    70% { background-color: hsl(252, 50%, 70%)}
+    80% { background-color: hsl(288, 50%, 70%)}
+    90% { background-color: hsl(324, 50%, 70%)}
+    100% { background-color: hsl(0, 50%, 70%)}
+}
+
+/* Apply the animation to the body */
+body {
+    animation: colorChange 5s infinite linear;
+}
+
+/* Apply color-changing animation to text */
+@keyframes textColorChange {
+    0% { color: #000000; }
+    50% { color: #000000; }
+    100% { color: #000000; }
+}
+
+h1, p {
+    animation: textColorChange 3s infinite alternate;
+}
+/*
+    0% { background-color: hsl(0, 50%, 70%)}
+    10% { background-color: hsl(36, 50%, 70%)}
+    20% { background-color: hsl(72, 50%, 70%)}
+    30% { background-color: hsl(108, 50%, 70%)}
+    40% { background-color: hsl(144, 50%, 70%)}
+    50% { background-color: hsl(180, 50%, 70%)}
+    60% { background-color: hsl(216, 50%, 70%)}
+    70% { background-color: hsl(252, 50%, 70%)}
+    80% { background-color: hsl(288, 50%, 70%)}
+    90% { background-color: hsl(324, 50%, 70%)}
+    100% { background-color: hsl(0, 50%, 70%)}
+
+/*
+@keyframes rgbAccent {
+  0% {
+    accent-color: hsl(0, 50%, 70%);
+  }
+  10% {
+    accent-color: hsl(36, 50%, 70%);
+  }
+  20% {
+    accent-color: hsl(72, 50%, 70%);
+  }
+  30% {
+    accent-color: hsl(108, 50%, 70%);
+  }
+  40% {
+    accent-color: hsl(144, 50%, 70%);
+  }
+  50% {
+    accent-color: hsl(180, 50%, 70%);
+  }
+  60% {
+    accent-color: hsl(216, 50%, 70%);
+  }
+  70% {
+    accent-color: hsl(252, 50%, 70%);
+  }
+  80% {
+    accent-color: hsl(288, 50%, 70%);
+  }
+  90% {
+    accent-color: hsl(324, 50%, 70%);
+  }
+  100% {
+    accent-color: hsl(0, 50%, 70%);
+  }
+}
